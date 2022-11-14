@@ -29,8 +29,8 @@
 将所有图片大小调整为固定尺寸：宽为600px, 高为450px。将图片调整为固定尺寸之后，我们将使用标注工具<a href = "https://github.com/heartexlabs/labelImg">labelimg</a>标注图像。
 
 因为该项目只需要识别包烟，因此只需要对图片中出现的包烟进行标注即可。这里需要注意的是，在labelimg中，需要在左侧将标注类型设置为yolo格式
-![image](https://user-images.githubusercontent.com/30151896/201564435-2831eea4-2d6e-42dd-9085-f5ef7049bd03.png) 。 
-这样标好的标签就是.txt格式的了。
+![image](https://user-images.githubusercontent.com/30151896/201564435-2831eea4-2d6e-42dd-9085-f5ef7049bd03.png) 这样标好的标签就是.txt格式的了
+
 
 ![image](https://user-images.githubusercontent.com/30151896/201564443-456a9aba-53dd-40dd-816a-4d4c20e24a30.png)
 
