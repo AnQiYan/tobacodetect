@@ -74,13 +74,24 @@
 
 我们需要设定初始化的权重，在这里我们设置为yolov5s.pt
 修改模型的配置文件路径：这里我们设置为刚才配置好的<i>models/tobaco.yaml</i>
+修改数据的配置文件：<i>models/tobaco.yaml</i>
+这样我们就可以开始训练了。
 
 
 
+<h3>数据的预测</h3>
+当我们训练好后模型后，就可以用训练好的权重进行目标的检测了
+训练好的模型权重存放在runs/train下
 
- 
+![img_4.png](img_4.png)
 
+我们需要修改detect.py文件中的配置
 
+![img_6.png](img_6.png)
 
+我们需要修改权重的路径，在这里我们设置为训练好的权重：<i>runs\train\exp4\weights\best.pt</i>
+测试的数据集路径我们设置为：<i>ROOT / 'data/test'</i> 这样模型将对test文件夹下的图片进行预测
+将数据集的配置文件设置为 'data/tobaco.yaml'
+这样就可以运行程序对测试图片进行目标检测了。
 
 
