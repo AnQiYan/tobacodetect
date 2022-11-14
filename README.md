@@ -26,7 +26,11 @@
 
 <h5>参数配置：</h5>
 数据处理好后，我们就可以对文件进行配置了
-首先，我们修改数据的配置文件，在这个配置在data文件下的tobaco.yaml中。
+首先，我们修改数据的配置文件: 在data文件下的tobaco.yaml。在这个配置文件中，我们需要设定训练数据集和验证数据集的目录。以及设定需要识别的目标。
+例如，我们的训练路径为：data/images/train， 验证路径为：data/images/val。以及我们在上一步标注好的目标：tobaco
+![image](https://user-images.githubusercontent.com/30151896/201565309-2b3b015b-49b0-4588-aa4b-f98725eb706c.png)
+
+
  
 
 
